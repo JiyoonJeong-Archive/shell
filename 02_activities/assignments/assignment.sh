@@ -43,7 +43,7 @@ ls -la ./data/raw # list all the files and folders in the 'raw' directory (inclu
 
 # 4. Create the directory ./data/processed, 
 #    then create the following sub-directories within it: server_logs, user_logs, and event_logs
-cd .. # go back up to the 'data' directory
+cd data # go to the 'data' directory
 pwd # check the current directory and make sure it's the 'data' directory
 mkdir processed # create a new directory named 'processed' inside 'data'
 cd processed # make 'processed' the current directory in the terminal
