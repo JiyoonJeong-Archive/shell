@@ -37,9 +37,9 @@ cd data # make 'data' the current directory in the terminal
 mv rawdata raw # rename 'rawdata' directory into 'raw' (the folder named 'raw' did not exist before this command)
 
 # 3. List the contents of the ./data/raw directory
-cd raw # make 'raw' the current directory in the terminal
-pwd # check the current directory and make sure it's the 'raw' directory
-ls -la # list all the files and folders in the 'raw' directory (including the hidden files)
+cd .. # make 'newproject' the current directory in the terminal
+pwd # check the current directory and make sure it's the 'newproject' directory
+ls -la ./data/raw # list all the files and folders in the 'raw' directory (including the hidden files)
 
 # 4. Create the directory ./data/processed, 
 #    then create the following sub-directories within it: server_logs, user_logs, and event_logs
